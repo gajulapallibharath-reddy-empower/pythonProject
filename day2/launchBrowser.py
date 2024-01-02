@@ -16,7 +16,7 @@ googleSearchBox.send_keys("bharath",Keys.ENTER)
 
 wait = WebDriverWait(driver, timeout=2)
 wait.until(expected_conditions.presence_of_element_located())
-
+# machine local
 time.sleep(1)
 
 driver.quit()
